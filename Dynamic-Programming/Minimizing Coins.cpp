@@ -40,3 +40,6 @@ int main()
    cout << (dp[x] < 1e9 ? dp[x] : -1) << "\n";
    return 0;
 }                          // TC = O(n.x) SC = O(x)
+/*
+dp[i] denotes minimum number of coins required to create sum i.
+*/
