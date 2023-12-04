@@ -42,8 +42,7 @@ int main()
          else
             curr[i] = next[i] % mod;
       }
-      for (int i = 0; i <= x; i++)
-         next[i] = curr[i];
+      next = curr;
    }
    cout << next[x] << "\n";
    return 0;
