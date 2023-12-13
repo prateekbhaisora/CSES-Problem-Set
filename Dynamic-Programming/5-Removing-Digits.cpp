@@ -50,7 +50,7 @@ int main()
    }
    cout << (n <= 9 ? dp[n] : dp[8]) << "\n";
    return 0;
-}                          // TC = O(n) SC = O(1)
+}                          // TC = O(n.logn) SC = O(1)
 /*
 dp[i] denotes the minimum number of steps required to convert i to 0.
 Upon closer examination, we can observe that since a digit n can have 0 to 9 digits in base 10,
